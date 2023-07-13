@@ -22,7 +22,7 @@ const calculateNumerology = (date, targetValue) => {
   return sum;
 };
 
-function findDaysAddingUpToDate(startYear, endYear, targetValue) {
+const findDaysAddingUpToDate = (startYear, endYear, targetValue) => {
   const daysAddingUpToDate = [];
 
   for (let year = startYear; year <= endYear; year++) {
